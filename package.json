@@ -1,6 +1,6 @@
 {
   "name": "colt-demo-tile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react tile component used for the react training.",
   "main": "src/Component.js",
   "jsnext:main": "src/Component.js",
