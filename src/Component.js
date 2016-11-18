@@ -3,20 +3,17 @@ import styles from './Component.css';
 import classes from 'classnames';
 
 class Component extends ReactComponent {
-    state = {
-        example: 'example'
-    };
     render() {
-        const {className} = this.props;
-        const {example} = this.state;
+        const {className, title, teaser, img} = this.props;
 
         return (
             <div className={classes(className, styles.componentName)}>
+                <img src={img} />
+                <span class={styles.title}>{title}</span>
+                <p class={styles.teaser}>{teaser}</p>
             </div>
         )
     }
 }
-
-
 
 export default Component;
