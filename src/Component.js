@@ -7,10 +7,10 @@ class Component extends ReactComponent {
         const {className, title, teaser, img} = this.props;
 
         return (
-            <div className={classes(className, styles.componentName)}>
+            <div className={classes(className, styles.tile)}>
                 <img src={img} />
-                <span class={styles.title}>{title}</span>
-                <p class={styles.teaser}>{teaser}</p>
+                <span className={styles.title}>{title}</span>
+                <p className={styles.teaser}>{teaser}</p>
             </div>
         )
     }
