@@ -1,7 +1,7 @@
 {
-  "name": "csp-react-component",
-  "version": "1.0.0-alpha.1",
-  "description": "The CSP version of the react component starter",
+  "name": "colt-demo-tile",
+  "version": "1.0.0",
+  "description": "A react tile component used for the react training.",
   "main": "src/Component.js",
   "jsnext:main": "src/Component.js",
   "storybook": "src/ComponentStory.js",
