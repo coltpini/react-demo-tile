@@ -6,3 +6,6 @@
 
 # 1.0.2
 * updated babel from es2015 to latest
+
+# 1.0.3
+* missed the babelrc update.
